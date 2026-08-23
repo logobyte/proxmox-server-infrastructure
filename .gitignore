@@ -1,0 +1,42 @@
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Terraform state and generated files
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# AWS local files
+.aws/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+tmp/
+
+# SSH/private keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Laravel secrets
+.env
+auth.json
