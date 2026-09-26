@@ -270,5 +270,3 @@ laravel/deploy-example.sh
 ```
 
 The scripts intentionally avoid automatically changing dangerous settings such as disabling SSH passwords, enabling a firewall before access is verified, or installing Composer without current installer verification.
-
-# proxmox-server-infrastructure
